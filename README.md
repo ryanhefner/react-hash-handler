@@ -75,13 +75,16 @@ class ExampleComponent extends Compnonent {
 
     return (
       <div className="page-wrapper">
-        <HashHandler onChange={this.onHashChange} onClick={this.onHashClick} />
+        <HashHandler
+          onChange={this.onHashChange}
+          onClick={this.onHashClick}
+        />
         <TargetScroller target={scrollTarget} />
         <nav>
           <ul>
-            <li><a href="#overview" onClick={this.onNavLinkClick}>Overview</a></li>
-            <li><a href="#about" onClick={this.onNavLinkClick}>About</a></li>
-            <li><a href="#contact" onClick={this.onNavLinkClick}>Contact</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         ...
