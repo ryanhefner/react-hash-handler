@@ -60,7 +60,7 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "greenkeeper-lockfile": "^1.15.0",
     "gzip-size": "^5.0.0",
-    "jest": "^22.4.3",
+    "jest": "^23.4.2",
     "jest-enzyme": "^6.0.0",
     "jsdom": "^11.10.0",
     "pretty-bytes": "^5.0.0",
@@ -85,6 +85,7 @@
     "setupFiles": [
       "<rootDir>/tools/jest-setup.js"
     ],
-    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js"
+    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
+    "testURL": "http://localhost"
   }
 }
