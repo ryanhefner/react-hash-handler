@@ -52,7 +52,7 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^24.8.0",
+    "babel-jest": "^23.6.0",
     "babel-plugin-dev-expression": "^0.2.1",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.15",
     "babel-preset-env": "^1.7.0",
@@ -62,7 +62,7 @@
     "enzyme-adapter-react-16": "^1.14.0",
     "greenkeeper-lockfile": "^1.15.1",
     "gzip-size": "^5.1.1",
-    "jest": "^24.8.0",
+    "jest": "^23.6.0",
     "jest-enzyme": "^7.0.0",
     "jsdom": "^15.1.1",
     "pretty-bytes": "^5.2.0",
@@ -87,12 +87,13 @@
     "setupFiles": [
       "<rootDir>/tools/jest-setup.js"
     ],
-    "setupFilesAfterEnv": [
-        "./node_modules/jest-enzyme/lib/index.js"
-    ],
+    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
     "transform": {
       "^.+\\.jsx?$": "babel-jest"
     },
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ],
     "testURL": "http://localhost"
   }
 }
