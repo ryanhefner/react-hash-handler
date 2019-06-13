@@ -14,6 +14,11 @@ if (process.env.NODE_ENV === 'production') {
 
 module.exports = () => {
   return {
+    env: {
+      test: {
+        plugins: ['transform-object-rest-spread']
+      }
+    },
     presets: [
       ['@babel/preset-env', {
         'loose': true,
