@@ -84,6 +84,9 @@
       "src/**/*.js",
       "!src/**/*.test.js"
     ],
+    "moduleDirectories": [
+      "node_modules"
+    ],
     "setupFiles": [
       "<rootDir>/tools/jest-setup.js"
     ],
