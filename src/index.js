@@ -14,11 +14,10 @@ class HashHandler extends Component {
     this.onDOMChange = this.onDOMChange.bind(this);
     this.onChange = this.onChange.bind(this);
     this.onClick = this.onClick.bind(this);
-
-    this.mutationObserver = new MutationObserver(this.onDOMChange);
   }
 
   componentDidMount() {
+    this.mutationObserver = new MutationObserver(this.onDOMChange);
     this.mutationObserver.observe(document.body, {
       childList: true,
       subtree: true,
