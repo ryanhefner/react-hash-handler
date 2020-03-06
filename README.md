@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/l/express.svg)](LICENSE)
 [![Coverage Status](https://coveralls.io/repos/github/ryanhefner/react-hash-handler/badge.svg?branch=master)](https://coveralls.io/github/ryanhefner/react-hash-handler?branch=master)
 [![CircleCI](https://circleci.com/gh/ryanhefner/react-hash-handler.svg?style=shield)](https://circleci.com/gh/ryanhefner/react-hash-handler)
-[![Greenkeeper badge](https://badges.greenkeeper.io/ryanhefner/react-hash-handler.svg)](https://greenkeeper.io/)
+
 
 React component that makes it easy to compose hashchange and hash click handling
 into your application or site.
