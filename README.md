@@ -1,9 +1,11 @@
 # react-hash-handler
 
-[![npm version](https://badge.fury.io/js/react-hash-handler.svg)](https://badge.fury.io/js/react-hash-handler)
-[![npm](https://img.shields.io/npm/l/express.svg)](LICENSE)
-[![Coverage Status](https://coveralls.io/repos/github/ryanhefner/react-hash-handler/badge.svg?branch=master)](https://coveralls.io/github/ryanhefner/react-hash-handler?branch=master)
-[![CircleCI](https://circleci.com/gh/ryanhefner/react-hash-handler.svg?style=shield)](https://circleci.com/gh/ryanhefner/react-hash-handler)
+![npm](https://img.shields.io/npm/v/react-hash-handler?style=flat-square)
+![NPM](https://img.shields.io/npm/l/react-hash-handler?style=flat-square)
+![npm](https://img.shields.io/npm/dt/react-hash-handler?style=flat-square)
+![Coveralls github](https://img.shields.io/coveralls/github/ryanhefner/react-hash-handler?style=flat-square)
+![CircleCI](https://img.shields.io/circleci/build/github/ryanhefner/react-hash-handler?style=flat-square)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/ryanhefner/react-hash-handler?style=flat-square)
 
 
 React component that makes it easy to compose hashchange and hash click handling
